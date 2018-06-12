@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "testcafe chrome headless test/test.js"
+    "test": "testcafe chrome:headless test/test.js"
   },
   "author": "Deva",
   "license": "ISC",
