@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-     "test": "node_modules/.bin/testcafe puppeteer test/test.js"
+     "test": "node_modules/.bin/testcafe puppeteer:no_sandbox test/test.js"
     
     
   },
