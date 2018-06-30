@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "nyc mocha --timeout=3000 --exit"
+    "test": "mocha test --reporter mochawesome"
   },
   "author": "Deva",
   "license": "ISC",
